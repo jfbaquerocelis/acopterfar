@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	{% block head %}
+	<meta charset="UTF-8" />
+	<title>Acopterfar</title>
+	<link rel="stylesheet" href="css/vendor/normalize.css" />
+	<link rel="stylesheet" href="css/vendor/materialize.min.css" />
+	<link rel="stylesheet" href="css/estilo.css" />
+	{% endblock %}
+</head>
+<body>
+	<nav class="container Menu">
+		<div class="row">
+			<ul class="col s10 offset-s1 Menu-list">
+				<li class="Menu-li"><a class="Menu-a" href= "/"> INICIO</a></li>
+				<li class="Menu-li"><a class="Menu-a" href="/who">¿QUIENES SOMOS?</a></li>
+				<li class="Menu-li"><a class="Menu-a" href= "/Normatividad">NORMATIVIDAD</a></li>
+				<li class="Menu-li"><a class="Menu-a" href= "/Contacto">CONTACTO</a></li>
+				<li class="Menu-li"><a class="Menu-a" href= "/Congreso">III CONGRESO INTERNACIONAL</a></li>
+			</ul>
+		</div>
+	</nav>
+	<header class="container Header">
+		<div class="row">
+			<div class="col s4 Header-contentImg">
+				<img src="/img/acopterfar.png" class="Header-img">
+			</div>
+			<div class="col s8">
+				<h1 class="Header-title">ACOPTERFAR</h1>
+				<h4 class="Header-subtitle">ASOCIACIÓN COLOMBIANA DE PROGRAMAS DE TECNOLOGÍA EN REGENCIA DE FARMACIA</h4>
+			</div>
+		</div>
+	</header>
+
+	{% block aside %}
+	{% endblock %}
+	
+	{% block content %}
+	{% endblock %}
+
+	{% block footer %}
+	<footer class="Footer">
+		<p class="Footer-information">Design by <a href="http://www.twitter.com/alvaropajarof" target="_blank">Alvaro Pajaro</a> and <a href="http://www.twitter.com/noverflow" target="_blank">John Baquero Celis</a></p>
+	</footer>
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/materialize.min.js"></script>
+	{% endblock %}
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "Acopterfar",
+  "version": "0.0.0",
+  "description": "Pagina Oficial de Acopterfar",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "regencia",
+    "acopterfar"
+  ],
+  "author": "Alvaro Javier Pajaro, John Baquero Celis",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.12.3",
+    "swig": "~1.4.2"
+  }
+}
