@@ -24,17 +24,6 @@ whoRouter(router)
 regulationRouter(router)
 contactRouter(router)
 
-
-server.get('/Normatividad', function (req, res) {
-	res.render('normatividad')
-})
-server.get('/Contacto', function (req, res) {
-	res.render('contac')
-})
-server.get('/Congreso', function (req, res) {
-	res.render('congress')
-})
-
 server.listen(18484, function () {
 	console.log('Servidor Corriendo en http://127.0.01:18484')
 })
