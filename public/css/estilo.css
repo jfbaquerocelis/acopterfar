@@ -2,8 +2,11 @@ body{background:#f44336;color:#fff}
 .Content-messages{padding-top:3em;text-align:center}
 .message-img{width:17em;margin:0}
 .message{text-decoration:underline}
-.message-icon{margin:0;color:#d22114;text-shadow:1px 1px 5px #c11003;font-size:8em}
+.message-icon{margin:0;color:#d22114;text-shadow:1px 1px 5px #c11003;font-size:7em}
 .message-footer{text-align:center}
+.message-footerDev{margin:0}
+.message-footerLink{color:#49fd72;font-style:italic;-o-transition:0.5s all ease;-ms-transition:0.5s all ease;-webkit-transition:0.5s all ease;-moz-transition:0.5s all ease;transition:0.5s all ease;}
+.message-footerLink:hover{text-decoration:underline;color:#fff}
 .Header{background:#eee;border-bottom:2px solid #ddd}
 .Header-contentImg{text-align:center}
 .Header-img{width:16em;padding-top:15px}

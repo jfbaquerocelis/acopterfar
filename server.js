@@ -25,5 +25,5 @@ regulationRouter(router)
 contactRouter(router)
 
 server.listen(18484, function () {
-	console.log('Servidor Corriendo en http://127.0.01:18484')
+	console.log('Servidor Corriendo en http://127.0.0.1:18484')
 })
