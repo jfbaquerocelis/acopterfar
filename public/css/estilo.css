@@ -1,12 +1,12 @@
-body{background:#f44336;color:#fff}
 .Content-messages{padding-top:3em;text-align:center}
-.message-img{width:17em;margin:0}
+.message-img{width:13em;margin:0}
 .message{text-decoration:underline}
-.message-icon{margin:0;color:#d22114;text-shadow:1px 1px 5px #c11003;font-size:7em}
+.message-icon{margin:0;color:#d22114;text-shadow:1px 1px 5px #c11003;font-size:7em;-o-animation:rotateIcon 3s infinite;-ms-animation:rotateIcon 3s infinite;-webkit-animation:rotateIcon 3s infinite;-moz-animation:rotateIcon 3s infinite;animation:rotateIcon 3s infinite}
 .message-footer{text-align:center}
 .message-footerDev{margin:0}
-.message-footerLink{color:#49fd72;font-style:italic;-o-transition:0.5s all ease;-ms-transition:0.5s all ease;-webkit-transition:0.5s all ease;-moz-transition:0.5s all ease;transition:0.5s all ease;}
-.message-footerLink:hover{text-decoration:underline;color:#fff}
+.message-footerLink{font-style:italic;-o-transition:0.5s all ease;-ms-transition:0.5s all ease;-webkit-transition:0.5s all ease;-moz-transition:0.5s all ease;transition:0.5s all ease;}
+.message-footerLink:hover{text-decoration:underline}
+body{position:relative}
 .Header{background:#eee;border-bottom:2px solid #ddd}
 .Header-contentImg{text-align:center}
 .Header-img{width:16em;padding-top:15px}
@@ -27,14 +27,29 @@ body{background:#f44336;color:#fff}
 .Who{background:#eee;border-top:2px solid #ddd;padding-top:10px;padding-bottom:10px;text-align:center}
 .btn{background:#ddd;}
 .btn:hover{background:#f44336;color:#fff}
-.Who-list1,.Who-list2{-o-transition:0.5s all ease;-ms-transition:0.5s all ease;-webkit-transition:0.5s all ease;-moz-transition:0.5s all ease;transition:0.5s all ease;font-size:1.2em;color:#f44336;}
-.Who-list1:hover,.Who-list2:hover{font-weight:bold}
+.Who-list1,.Who-list2{font-size:1.5em;}
+.Who-list1:hover,.Who-list2:hover{color:#00f}
 .tabs{background:#eee}
-.quienessomos{background:#eee;text-align:justify}
-.objetivos{padding-top:10px;margin-top:0}
-.history{margin-bottom:0;border-top:2px solid #ddd}
-.objetivos-title,.history-title{font-weight:bold}
-.Footer{background:#f44336;text-align:center}
-.Footer-information{margin:0;padding:2em 0;font-size:1.1em;}
-.Footer-information a{color:#eee;}
-.Footer-information a:hover{text-decoration:underline}
+.quienessomos{background:#eee;text-align:justify;padding:10px 0}
+.objetives,.history{width:80%;margin:0 auto;list-style:lower-latin}
+.objetives-title,.history-title{text-align:center;border-bottom:2px solid #ddd;padding-bottom:5px}
+.buttonUp{position:fixed;bottom:0;right:3em;padding:.5em;-webkit-border-radius:50%;border-radius:50%;display:none;-o-transition:0.5s all ease;-ms-transition:0.5s all ease;-webkit-transition:0.5s all ease;-moz-transition:0.5s all ease;transition:0.5s all ease;}
+.buttonUp:hover{-o-transform:scale(1.1,1.1);-ms-transform:scale(1.1,1.1);-webkit-transform:scale(1.1,1.1);-moz-transform:scale(1.1,1.1);transform:scale(1.1,1.1)}
+.buttonUp-icon{font-size:5em;color:#f44336;text-shadow:1px 1px 5px #d22114}
+.Footer{background:#f44336;text-align:center;padding:1em 0}
+.Footer-contentLogo{margin:0}
+.Footer-logo{width:6em}
+.Footer-information,.Footer-year,.Footer-org{margin:0;}
+.Footer-information a,.Footer-year a,.Footer-org a{color:#eee;}
+.Footer-information a:hover,.Footer-year a:hover,.Footer-org a:hover{text-decoration:underline}
+@-moz-keyframes rotateIcon{0%{-o-transform:rotate(0);-ms-transform:rotate(0);-webkit-transform:rotate(0);-moz-transform:rotate(0);transform:rotate(0)}
+100%{-o-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);transform:rotate(360deg)}
+}@-webkit-keyframes rotateIcon{0%{-o-transform:rotate(0);-ms-transform:rotate(0);-webkit-transform:rotate(0);-moz-transform:rotate(0);transform:rotate(0)}
+100%{-o-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);transform:rotate(360deg)}
+}@-o-keyframes rotateIcon{0%{-o-transform:rotate(0);-ms-transform:rotate(0);-webkit-transform:rotate(0);-moz-transform:rotate(0);transform:rotate(0)}
+100%{-o-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);transform:rotate(360deg)}
+}@-ms-keyframes rotateIcon{0%{-o-transform:rotate(0);-ms-transform:rotate(0);-webkit-transform:rotate(0);-moz-transform:rotate(0);transform:rotate(0)}
+100%{-o-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);transform:rotate(360deg)}
+}@keyframes rotateIcon{0%{-o-transform:rotate(0);-ms-transform:rotate(0);-webkit-transform:rotate(0);-moz-transform:rotate(0);transform:rotate(0)}
+100%{-o-transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);transform:rotate(360deg)}
+}

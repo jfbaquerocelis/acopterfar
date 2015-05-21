@@ -1,15 +1,20 @@
 @import 'nib/vendor'
 vendor-prefixes = o ms webkit moz official
 
-/*Zone Construct*/
-body
-	background #F44336
-	color white
+// /*Zone Construct*/
+@keyframes rotateIcon{
+	from{
+		transform rotate(0deg)
+	}
+	to{
+		transform rotate(360deg)
+	}
+}
 .Content-messages
 	padding-top 3em
 	text-align center
 .message-img
-	width 17em
+	width 13em
 	margin 0
 .message
 	text-decoration underline
@@ -18,18 +23,19 @@ body
 	color #D22114
 	text-shadow 1px 1px 5px #C11003
 	font-size 7em
+	animation rotateIcon 3s infinite
 .message-footer
 	text-align center
 .message-footerDev
 	margin 0
 .message-footerLink
-	color #49FD72
 	font-style italic
 	transition .5s all ease
 	&:hover
 		text-decoration underline
-		color white
 
+body
+	position relative
 .Header
 	background #EEEEEE
 	border-bottom 2px solid #DDD
@@ -103,44 +109,59 @@ body
 	&:hover
 		background #F44336
 		color white
-	
-// // 	box-shadow none
-// // 	color #333
-// // 	line-height 50px
-		
+
 .Who-list1
 .Who-list2
-	transition .5s all ease
-	font-size 1.2em
-	color: #F44336
+	font-size 1.5em
 	&:hover
-		font-weight bold
+		color blue
+
 .tabs
 	background #EEEEEE
 	
 .quienessomos
 	background #EEEEEE
 	text-align justify
-	// border-top 2px solid #DDD
-.objetivos
-	padding-top 10px
-	margin-top 0
+	padding 10px 0
+.objetives
 .history
-	margin-bottom 0
-	border-top 2px solid #DDD
-.objetivos-title
+	width 80%
+	margin 0 auto
+	list-style lower-latin
+.objetives-title
 .history-title
-	font-weight bold
+	text-align center
+	border-bottom 2px solid #DDD
+	padding-bottom 5px
 	
-// ------------------------------------		
-	
+//Button up
+.buttonUp
+	position fixed
+	bottom 0
+	right 3em
+	padding 0.5em
+	border-radius 50%
+	display none
+	transition .5s all ease
+	&:hover
+		transform scale(1.1, 1.1)
+.buttonUp-icon
+	font-size 5em
+	color #F44336
+	text-shadow 1px 1px 5px #D22114
+
 .Footer
 	background #F44336
 	text-align center
-.Footer-information
+	padding 1em 0
+.Footer-contentLogo
 	margin 0
-	padding 2em 0
-	font-size 1.1em
+.Footer-logo
+	width 6em
+.Footer-information
+.Footer-year
+.Footer-org
+	margin 0
 	& a
 		color #eee
 		&:hover
