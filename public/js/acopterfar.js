@@ -22,4 +22,6 @@ $(document).ready(function () {
 			scrollTop : 0
 		}, 500)
 	})
+	// Inicialización de slider
+	$('.slider').slider({full_width: true});
 })

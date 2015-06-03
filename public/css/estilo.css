@@ -24,6 +24,7 @@ body{position:relative}
 .mdi-social-group,.mdi-action-assignment,.mdi-social-group-add,.mdi-social-school,.mdi-action-search,.mdi-notification-tap-and-play,.mdi-action-assignment-turned-in,.mdi-action-list{font-size:42px;margin:0}
 .Home{background:#eee;border-top:2px solid #ddd;padding:1em}
 .Home-title{text-align:center}
+.Home-article{display:none}
 .Who{background:#eee;border-top:2px solid #ddd;padding-top:10px;padding-bottom:10px;text-align:center}
 .btn{background:#ddd;}
 .btn:hover{background:#f44336;color:#fff}
