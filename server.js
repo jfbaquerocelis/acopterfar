@@ -12,7 +12,7 @@ server.use(express.static(__dirname + '/public'))
 server.use(router)
 
 swig.setDefaults({
-	cache : false
+	cache : 'memory'
 });
 
 var homeRouter = require('./app/routers/r.home')
