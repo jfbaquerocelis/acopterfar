@@ -19,10 +19,12 @@ var homeRouter = require('./app/routers/r.home')
 var whoRouter = require('./app/routers/r.who')
 var regulationRouter = require('./app/routers/r.regulations')
 var contactRouter = require('./app/routers/r.contact')
+var membersRouter = require('./app/routers/r.members')
 homeRouter(router)
 whoRouter(router)
 regulationRouter(router)
 contactRouter(router)
+membersRouter(router)
 
 server.listen(18484, function () {
 	console.log('Servidor Corriendo en http://127.0.0.1:18484')
