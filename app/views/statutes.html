@@ -1,0 +1,57 @@
+{% extends 'layout.html' %}
+
+{% block aside %}
+	<aside class="container topMenu">
+		<ul class="row topMenu-list">
+			<a href="/members" class="col s1 offset-s2 topMenu-link tooltipped" data-position="top" data-delay="10" data-tooltip="Miembros activos">
+				<li class=" topMenu-li"><p class="mdi-social-group icono"></p></li>
+			</a>
+			<a href="/statutes" class="col s1 topMenu-link tooltipped" data-position="top" data-delay="10" data-tooltip="Estatutos">
+				<li class="topMenu-li"><p class="mdi-action-assignment icono"></p></li>
+			</a>
+			<a href="/regulations" class="col s1 topMenu-link tooltipped" data-position="top" data-delay="10" data-tooltip="Capacitacion">
+				<li class="topMenu-li"><p class="mdi-social-group-add icono"></p></li>
+			</a>
+			<a href="/regulations" class="col s1 topMenu-link tooltipped" data-position="top" data-delay="10" data-tooltip="Egresados">
+				<li class="topMenu-li"><p class="mdi-social-school icono"></p></li>
+			</a>
+			<a href="/regulations" class="col s1 bottomMenu-link tooltipped" data-position="top" data-delay="10" data-tooltip="Investigación">
+				<li class="bottomMenu-li"><p class="mdi-action-search icono"></p></li>
+			</a>
+			<a href="/regulations" class="col s1 bottomMenu-link tooltipped" data-position="top" data-delay="10" data-tooltip="Boletín TRF-UIS">
+				<li class="bottomMenu-li"><p class="mdi-notification-tap-and-play icono"></p></li>
+			</a>
+			<a href="/regulations" class="col s1 bottomMenu-link tooltipped" data-position="top" data-delay="10" data-tooltip="Reacreditacion TRF-UdeA">
+				<li class="bottomMenu-li"><p class="mdi-action-assignment-turned-in icono"></p></li>
+			</a>
+			<a href="/regulations" class="col s1 bottomMenu-link tooltipped" data-position="top" data-delay="10" data-tooltip="Convocatoria RF-Unillanos">
+				<li class="bottomMenu-li"><p class="mdi-action-list icono"></p></li>
+			</a>
+		</ul>
+	</aside>
+{% endblock %}
+{% block content %}
+	<section class="row container Statutes">
+		<h5 class="Statutes-title">ASOCIACIÓN COLOMBIANA DE PROGRAMAS DE TECNOLOGÍA EN REGENCIA DE FARMACIA</h5>
+		<h5 class="Statutes-subtitle">ACOPTERFAR</h5>
+		<article class="Statutes-article col s10 offset-s1">
+			<h6><strong>CAPITULO PRIMERO</strong></h6>
+			<h6><strong>DENOMINACION, NATURALEZA, DOMICILIO Y DURACION</strong></h6>
+			<p><strong>ARTICULO 1. DE LA DENOMINACION.</strong> Constituyese la Asociación Colombiana de Programas de Tecnología en Regencia de Farmacia que para todos los efectos legales y de presentación se denominará (ACOPTERFAR).</p>
+			<p><strong>ARTICULO 2. DE LA NATURALEZA.</strong> Organización sin ánimo de lucro enmarcada en el artículo 38 de la Constitución Nacional, o “del derecho general de libre asociación” y la cual se crea por el derecho que le confiere la Ley 485 de 1998 que reglamenta la profesión del Tecnólogo en Regencia de Farmacia. Dicha Asociación estará integrada por los programas académicos del país con aprobación oficial, y personería jurídica, que mediante las condiciones establecidas adelante, se adhieran a los presentes estatutos y se sometan a ellos. Los recursos de la Asociación serán destinados al cumplimiento de los objetivos que se persiguen.</p>
+			<p><strong>ARTICULO 3. DEL DOMICILIO.</strong> La Asociación tiene su domicilio principal en la ciudad de Santafé de Bogotá Distrito Capital y operarán como domicilios alternos aquellas ciudades donde exista el programa y hagan parte de la Asociación. La sede será la misma del presidente quien es su representante legal. Los domicilios de los socios fundadores son como sigue:</p>
+			<ol>
+				<li>Universidad Industrial de Santander, con domicilio en Bucaramanga.</li>
+				<li>Universidad del Tolima, con domicilio en Ibagué.</li>
+				<li>Universidad Pedagógica y Tecnológica de Colombia, con domicilio en Tunja.</li>
+				<li>Universidad Francisco de Paula Santander, con domicilio en Cúcuta.</li>
+				<li>Corporación Tecnológica de Bogotá, con domicilio en Bogota D.C.</li>
+				<li>Universidad de Córdoba, con domicilio en Montería.</li>
+				<li>Universidad de Antioquia, con domicilio en Medellín.</li>
+				<li>Universidad de Caldas, con domicilio en Manizales.</li>
+				<li>Universidad Nacional Abierta y a Distancia, con domicilio en Bogotá D.C.</li>
+			</ol>
+			<a href="resources/estatutos.pdf" target="_blank">Seguir leyendo</a>
+		</article>
+	</section>
+{% endblock %}
